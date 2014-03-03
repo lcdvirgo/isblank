@@ -399,7 +399,19 @@ function wp_mail( $to, $subject, $message, $headers = '', $attachments = array()
 	}
 
 	// Set to use PHP's mail()
-	$phpmailer->IsMail();
+//$phpmailer->IsMail();
+
+// Over ride and set to use SMTP. Set enviromental variables.
+$phpmailer->IsSMTP();
+$phpmailer->SMTPAuth = true; // enable SMTP authentication
+$phpmailer->Port = 25; // set the SMTP server port
+$phpmailer->Host = 'smtp.sendgrid.net'; // SMTP server
+$phpmailer->Username = $_ENV["SENDGRID_USERNAME"]; // SMTP server username
+$phpmailer->Password = $_ENV["SENDGRID_PASSWORD"]; // SMTP server password
+$phpmailer->From = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
+$phpmailer->FromName = $bloginfo = get_bloginfo( 'name', 'raw' );
+$phpmailer->Sender = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
+//$phpmailer->AddReplyTo($bloginfo = get_bloginfo( 'admin_email', 'raw' );, $bloginfo = get_bloginfo( 'name', 'raw' ););
 
 	// Set Content-Type and charset
 	// If we don't have a content-type from the input headers
@@ -1292,12 +1304,15 @@ function wp_new_user_notification($user_id, $plaintext_pass = '') {
 
 	if ( empty($plaintext_pass) )
 		return;
-
+	/* $message  = sprintf(__('Thank you so much for registering with the Team Formation website!') . "\r\n"; */
 	$message  = sprintf(__('Username: %s'), $user->user_login) . "\r\n";
-	$message .= sprintf(__('Password: %s'), $plaintext_pass) . "\r\n";
-	$message .= wp_login_url() . "\r\n";
+	/* $message .= sprintf(__('Password: %s'), $plaintext_pass) . "\r\n"; */
+	$message .= sprintf(__('Thank you so much for registering with the Team Formation website! You can now setup your profile at: %s'), wp_login_url() ) . "\r\n";
+	/* $message .= wp_login_url() . "\r\n"; */
+	/* $message  = sprintf(__('The UW Team Formation Team') . "\r\n"; */
 
-	wp_mail($user->user_email, sprintf(__('[%s] Your username and password'), $blogname), $message);
+	wp_mail($user->user_email, sprintf(__('Welcome to Team Formation'), $blogname), $message);
+	/* wp_mail($user->user_email, sprintf(__('[%s] Your username and password'), $blogname), $message); */
 
 }
 endif;
