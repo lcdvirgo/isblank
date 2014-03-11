@@ -1323,6 +1323,8 @@ background-clip: padding-box;
 .widget-bio .avatar,
 .single-author-bio .avatar {
 	float: left;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
 .author-bio {
@@ -1833,8 +1835,10 @@ img.aligncenter {
 
 #comments .commentlist .comment-meta img {
 	float: left;
-	padding: 0 19px 0 0;
-	margin: -4px 0 0;
+    padding: 0;
+    margin: 0 5px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
 }
 
 #comments .commentlist .comment-content {
