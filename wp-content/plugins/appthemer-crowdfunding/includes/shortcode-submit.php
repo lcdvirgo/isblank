@@ -1223,7 +1223,7 @@ function atcf_shortcode_submit_process() {
 	$existing_campaign = isset ( $_POST[ 'campaign_id' ] ) ? esc_attr( $_POST[ 'campaign_id' ] ) : null;
 	$fields            = atcf_shortcode_submit_fields();
 
-	$status = 'submit' == $action ? 'pending' : 'draft';
+	$status = 'submit' == $action ? 'publish' : 'draft';
 
 	/** If we are submitting, but this is a live campaign, keep published */
 	if ( $existing_campaign && ( 'pending' == $status && get_post( $existing_campaign )->post_status == 'publish' ) )
