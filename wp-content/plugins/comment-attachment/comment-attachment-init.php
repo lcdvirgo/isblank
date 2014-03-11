@@ -843,6 +843,12 @@ if (!class_exists('wpCommentAttachment')){
                     }
                 }
 
+
+                /* <div style="color: #black; background: #BA623C;" id="entry">
+                        <h3 style="position: absolute; height: 58px; top: 50%; margin-top: -29px; width: 480px; left: 50%; margin-left: -240px;">Jesus is My Forever Help</h3>
+                   </div>
+                */        
+
                 // attachment link, if it's not video / audio
                 if(is_admin()){
                     $contentInnerFinal = '<a '.$attachmentRel.' class="attachmentLink" target="_blank" href="'. $attachmentLink .'" title="Download: '. $attachmentName .'">';
@@ -857,6 +863,11 @@ if (!class_exists('wpCommentAttachment')){
                         $contentInnerFinal = $contentInner;
                     }
                 }
+
+                <section class="comment-content comment">
+                <?php comment_text(); ?>
+                <?php edit_comment_link( __( 'Edit', 'fundify' ) ); ?>
+                </section>
 
                 // bring a sellotape, this needs taping together
                 $contentInsert = $contentBefore . $contentInnerFinal . $contentAfter;
