@@ -3130,3 +3130,17 @@ background-color: #eff1f5;
 .edd_purchase_submit_wrapper a.edd-add-to-cart.edd-has-js, .edd-cart-ajax-alert {
 display:none;
 }
+
+section > h1 > p {
+z-index: 9999;
+position: relative;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+top:150px;
+}
+
+section > h1 > div {
+margin-top: -60px;
+z-index: -1000;
+}
