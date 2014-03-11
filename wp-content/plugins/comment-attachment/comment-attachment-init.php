@@ -864,11 +864,6 @@ if (!class_exists('wpCommentAttachment')){
                     }
                 }
 
-                <section class="comment-content comment">
-                <?php comment_text(); ?>
-                <?php edit_comment_link( __( 'Edit', 'fundify' ) ); ?>
-                </section>
-
                 // bring a sellotape, this needs taping together
                 $contentInsert = $contentBefore . $contentInnerFinal . $contentAfter;
 
