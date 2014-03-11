@@ -59,7 +59,7 @@ function fundify_comment( $comment, $args, $depth ) {
 			<!-- .comment-meta -->
 			
 			<section class="comment-content comment">
-				<h1><?php comment_text(); ?></h1>
+				<?php comment_text(); ?>
 				<?php edit_comment_link( __( 'Edit', 'fundify' ) ); ?>
 			</section>
 			<!-- .comment-content -->
