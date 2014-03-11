@@ -707,7 +707,11 @@ body.fixed-header #header {
 
 .sort-tabs {
 	margin: 0;
-	height: 64px;
+	height: 4px;
+    top: 50px;
+    z-index: 500;
+    position: relative;
+    left: 30px;
 }
 
 .sort-tabs h3 {
@@ -819,16 +823,20 @@ body.fixed-header #header {
 	padding-bottom: 40px;
 	border-bottom: 4px double #dbd9d4;
 	overflow: hidden;
+	width: 1140px;
+	height: 422px;
 }
 
 .project-details .image {
-	width: 745px;
+	width: 1140px;
 	float: left;
 }
 
 .project-details img {
 	display: block;
 	float: left;
+	width: 1140px;
+	height: auto;
 }
 
 .video-container {
@@ -936,6 +944,9 @@ body.fixed-header #header {
 	margin: 0 0 0;
 	width: 170px;
 	border: 1px solid #dbd9d4;
+	z-index: 500;
+	top: 50px;
+	right: 30px;
 }
 
 .entry-content .search-box {
@@ -1215,7 +1226,7 @@ background-clip: padding-box;
 }
 
 #content {
-	padding: 37px 0 50px;
+	padding: 0px 0 50px;
 }
 
 #content:after {
