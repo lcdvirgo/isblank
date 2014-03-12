@@ -819,6 +819,10 @@ body.fixed-header #header {
 	float: left;
 	padding: 8px 20px 5px 20px;
 	display: inline-block;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 .project-details {
