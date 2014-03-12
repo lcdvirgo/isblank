@@ -459,7 +459,6 @@ function fundify_header_css() {
 			color: $accent_color;
 		}
 
-		#home-page-featured h1 span,
 		#title-image h1 span,
 		.bar span,
 		input[type=submit]:not(#searchsubmit),
