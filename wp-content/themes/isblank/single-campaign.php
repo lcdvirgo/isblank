@@ -21,8 +21,10 @@ get_header(); ?>
 				
 				<?php locate_template( array( 'searchform-campaign.php' ), true ); ?>
 				<?php locate_template( array( 'campaign/campaign-sort-tabs.php' ), true ); ?>
-
+				
 				<?php locate_template( array( 'campaign/project-details.php' ), true ); ?>
+
+				<h1 class="h1title"><?php echo the_title();?> IS <u>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</u>.</h1>
 
 				<aside id="sidebar">
 					<?php locate_template( array( 'campaign/author-info.php' ), true ); ?>

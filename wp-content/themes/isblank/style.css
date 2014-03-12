@@ -819,7 +819,6 @@ body.fixed-header #header {
 }
 
 .project-details {
-	margin-bottom: 40px;
 	padding-bottom: 40px;
 	border-bottom: 4px double #dbd9d4;
 	overflow: hidden;
@@ -837,6 +836,8 @@ body.fixed-header #header {
 	float: left;
 	width: 1140px;
 	height: auto;
+    	top: 100px;
+
 }
 
 .video-container {
@@ -3154,4 +3155,18 @@ top:150px;
 section > h1 > div {
 margin-top: -60px;
 z-index: -1000;
+}
+
+
+#description {
+display: block;
+}
+
+.h1title {
+left: 30px;
+position: relative;
+top: -50px;
+color: #ffffff;
+font-size: 27px;
+text-transform:uppercase;
 }
