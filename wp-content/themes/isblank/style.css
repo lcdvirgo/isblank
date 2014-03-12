@@ -153,7 +153,7 @@ html {
 }
 
 body {
-	font: 14px/20px 'Lato', serif;
+	font: 14px/20px 'Roboto', serif;
 	color: #565656;
 	background: #fff url(images/bg_body.jpg) repeat;
 }
@@ -163,7 +163,7 @@ body.fixed-header.admin-bar #header {
 }
 
 input, textarea, select {
-	font-family: 'Lato', serif;
+	font-family: 'Roboto', serif;
 	outline: 0;
 }
 
@@ -188,7 +188,7 @@ input[type=number],
 input[type=file],
 textarea,
 select {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 	font-size: 12px;
 	color: #565656;
 	border: 1px solid #dbd9d4;
@@ -304,7 +304,7 @@ pre {
 	width: 1140px;
 	margin: 0 auto;
 	position: relative;
-	top: -30px;
+	top: -45px;
 }
 
 .alignleft {
@@ -355,7 +355,7 @@ body.fixed-header #header {
 }
 
 .site-title {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 26px;
 	letter-spacing: 2px;
@@ -444,7 +444,7 @@ body.fixed-header #header {
 }
 
 #menu a {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -599,7 +599,7 @@ body.fixed-header #header {
 .contacts h2 {
 	float: left;
 	width: 500px;
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 32px;
 	letter-spacing: 3px;
 	line-height: 40px;
@@ -682,7 +682,7 @@ body.fixed-header #header {
 }
 
 .title h1 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 27px;
 	line-height: 45px;
 	padding: 97px 0 0;
@@ -701,23 +701,23 @@ body.fixed-header #header {
 	line-height: 18px;
 	font-size: 13px;
 	text-transform: uppercase;
-    font-family: 'Lato';
+    	font-family: 'Roboto', sans-serif;
 	color: #ffffff;
 	letter-spacing: 1px;
 	text-shadow: 0 1px 0 #fff;
 }
 
 .sort-tabs {
-	margin: 0;
-	height: 4px;
-    top: 50px;
+    margin: 0;
+    height: 4px;
+    top: 70px;
     z-index: 500;
     position: relative;
     left: 30px;
 }
 
 .sort-tabs h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 28px;
 	letter-spacing: 2px;
@@ -774,7 +774,7 @@ body.fixed-header #header {
 }
 
 .sort-tabs .dropdown .current {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 28px;
 	cursor: pointer;
@@ -795,12 +795,13 @@ body.fixed-header #header {
 }
 
 .sort-tabs li {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 	font-size: 15px;
 	line-height: 28px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #939393;
+	color: #ffffff;
 	margin: 0 18px 0 0;
 	float: left;
 }
@@ -813,10 +814,10 @@ body.fixed-header #header {
 }
 
 .sort-tabs li a {
-	border: 1px solid #dbd9d4;
-	color: #939393;
+	border: 2px solid #ffffff;
+	color: #ffffff;
 	float: left;
-	padding: 0 25px;
+	padding: 8px 20px 5px 20px;
 	display: inline-block;
 }
 
@@ -869,7 +870,7 @@ body.fixed-header #header {
 }
 
 .project-details h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 46px;
 	letter-spacing: 4px;
 	line-height: 46px;
@@ -902,7 +903,7 @@ body.fixed-header #header {
 }
 
 .project-details li p {
-	font: 700 14px/normal 'Lato', sans-serif;
+	font: 700 14px/normal 'Roboto', sans-serif;
 	text-transform: uppercase;
 	padding: 5px 0 8px;
 }
@@ -944,10 +945,11 @@ body.fixed-header #header {
 	position: relative;
 	margin: 0 0 0;
 	width: 170px;
-	border: 1px solid #dbd9d4;
+	border: 2px solid #ffffff;
 	z-index: 500;
-	top: 50px;
+	top: 70px;
 	right: 30px;
+    color:#ffffff;
 }
 
 .entry-content .search-box {
@@ -965,7 +967,7 @@ body.fixed-header #header {
 	line-height: 28px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	width: 138px;
 }
 
@@ -1012,7 +1014,7 @@ body.fixed-header #header {
 
 .submit-content input[type=submit] {
 	background: #05927d;
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	border: 0;
 	box-shadow: 0 2px 0 #006657;
 	line-height: 43px;
@@ -1042,7 +1044,7 @@ body.fixed-header #header {
 }
 
 .submit-content h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	line-height: 26px;
@@ -1097,7 +1099,7 @@ body.campaign-widget #projects .item {
 }
 
 #projects .item {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	width: 252px;
 	background: #fff;
 	float: left;
@@ -1199,7 +1201,7 @@ background-clip: padding-box;
 }
 
 .campaign-ribbon a {
-	font: 700 11px 'Lato', sans-serif;
+	font: 700 11px 'Roboto', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
@@ -1278,7 +1280,7 @@ background-clip: padding-box;
 }
 
 #sidebar .widget h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -1390,7 +1392,7 @@ background-clip: padding-box;
 }
 
 .author-bio-links a {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 }
 
 .author-bio-links i {
@@ -1706,7 +1708,7 @@ position: relative;
 .entry-content h3.sans,
 .atcf-submit-campaign h3,
 .atcf-profile h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	line-height: 26px;
@@ -1740,7 +1742,7 @@ position: relative;
 }
 
 #comments h2 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	line-height: 26px;
@@ -1750,7 +1752,7 @@ position: relative;
 }
 
 #comments h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	line-height: 26px;
@@ -2163,7 +2165,7 @@ a.comment-edit-link {
 }
 
 .entry-share {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 	font-weight: normal;
 	color: #565656;
 	vertical-align: top;
@@ -2213,7 +2215,7 @@ a.comment-edit-link {
 }
 
 .page-numbers {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 	font-size: 25px;
 	line-height: normal;
 	color: #818080;
@@ -2248,7 +2250,7 @@ a.page-numbers:hover {
 }
 
 #footer h3 {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	color: #005a4d;
 	line-height: 39px;
@@ -2272,7 +2274,7 @@ a.page-numbers:hover {
 
 #footer input[type=submit] {
 	background: #005e50;
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	box-shadow: 0 2px 0 rgba(0, 0, 0, .10 );
 	line-height: 38px;
 	height: 38px;
@@ -2348,7 +2350,7 @@ a.page-numbers:hover {
 #footer .last-widget .copy p {
 	clear: right;
 	font-size: 14px;
-	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	letter-spacing: 1px;
 	padding: 10px 0 0;
@@ -2361,7 +2363,7 @@ a.page-numbers:hover {
 	padding: 5px 40px 20px 0;
 	letter-spacing: 2px;
 	line-height: 39px;
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 }
 
 #footer .last-widget li strong {
@@ -2402,7 +2404,7 @@ a.page-numbers:hover {
 
 #edd_purchase_form legend,
 #edd_final_total_wrap {
-	font-family: 'Oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	letter-spacing: 2px;
 	line-height: 26px;
@@ -2463,7 +2465,7 @@ a.page-numbers:hover {
 }
 
 .atcf_custom_price_wrap {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 	float: left;
 	width: 72%;
 }
@@ -2643,7 +2645,7 @@ a.page-numbers:hover {
 
 .modal-login p,
 .modal-register p {
-	font: 16px 'Lato', sans-serif;
+	font: 16px 'Roboto', sans-serif;
 	margin: 0 0 20px;
 }
 
@@ -3165,10 +3167,12 @@ display: block;
 .h1title {
 left: 30px;
 position: relative;
-top: -50px;
+top: -70px;
 color: #ffffff;
-font-size: 27px;
-text-transform:uppercase;
+font-size: 47px;
+text-transform: uppercase;
+text-shadow: 0 0 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3);
+font-weight:bold;
 }
 
 .site-title {
