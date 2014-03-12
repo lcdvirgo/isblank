@@ -185,6 +185,7 @@
 	.project-details .right-side,
 	#sidebar {
 		width: 26%;
+        display:none;
 	}
 
 	.project-details .image img {
