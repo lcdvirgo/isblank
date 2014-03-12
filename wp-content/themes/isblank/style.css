@@ -3170,3 +3170,8 @@ color: #ffffff;
 font-size: 27px;
 text-transform:uppercase;
 }
+
+.site-title {
+top: 30px;
+position: relative;
+}
