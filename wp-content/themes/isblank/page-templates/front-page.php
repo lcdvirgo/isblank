@@ -12,49 +12,25 @@ global $wp_query;
 
 get_header(); 
 ?>
+	
 
 	<?php if ( null == fundify_theme_mod( 'hero_slider' ) ) : ?>
 	<div id="home-page-featured">
-		<?php
-			if ( fundify_is_crowdfunding()  ) :
-				$featured = new ATCF_Campaign_Query( array( 
-					'posts_per_page' => 'grid' == fundify_theme_mod( 'hero_style' ) ? apply_filters( 'fundify_hero_campaign_grid', 24 ) : 1,
-					'meta_query'     => array(
-						array(
-							'key'     => '_campaign_featured',
-							'value'   => 1,
-							'compare' => '=',
-							'type'    => 'numeric'
-						)
-					)
-				) ); 
-			else :
-				$featured = new WP_Query( array( 
-					'posts_per_page' => 'grid' == fundify_theme_mod( 'hero_style' ) ? apply_filters( 'fundify_hero_campaign_grid', 24 ) : 1
-				) ); 
-			endif; 
-		?>
-		<?php if ( 'grid' == fundify_theme_mod( 'hero_style' ) ) : ?>
-			<?php for ( $i = 0; $i < 3; $i++ ) : shuffle( $featured->posts ); ?>
-			<ul>
-				<?php while ( $featured->have_posts() ) : $featured->the_post(); ?>
-				<li><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></li>
-				<?php endwhile; ?>
-			</ul>
-			<?php endfor; ?>
-		<?php else : ?>
-			<?php while ( $featured->have_posts() ) : $featured->the_post(); ?>
-				<?php $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id(), 'fullsize' ); ?>
-				<a href="<?php the_permalink(); ?>" class="home-page-featured-single"><img src="<?php echo $thumbnail[0]; ?>" /></a>
-			<?php endwhile; ?>
-		<?php endif; ?>
+		<div class="wrapper bg-stars">
+		<div class="const">
+		<img class="constellations" src="http://isblank.s3.amazonaws.com/2014/03/star.png">
+		</div>
+		<div class="pure-g-r">
+		</div>
+		</div>
+
 
 		<h1>
 			<?php 
 				$string = fundify_theme_mod( 'hero_text' ); 
 				$lines = explode( "\n", $string );
 			?>
-			<a href="#content"><span><?php echo implode( '</span><br /><span>', $lines ); ?></span></a>
+			<a href="#content"><span id="typed"></span></a>
 		</h1>
 		<!-- / container -->
 	</div>

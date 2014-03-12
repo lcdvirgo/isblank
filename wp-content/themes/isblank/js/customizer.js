@@ -51,7 +51,7 @@
 	wp.customize( 'fundify_accent_color', function( value ) {
 		value.bind( function( to ) {
 			$( '.sort-tabs .dropdown .current, .sort-tabs li a:hover, .sort-tabs li a.selected, #footer, #footer h3, #footer a' ).css( 'color', to );
-			$( '#home-page-featured h1 span, #projects .bar span' ).css( 'background-color', to );
+			$( '#projects .bar span' ).css( 'background-color', to );
 			$( '.sort-tabs li a:hover, .sort-tabs li a.selected' ).css( 'border-color', to );
 		} );
 	} );

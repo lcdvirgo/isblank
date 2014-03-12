@@ -24,6 +24,19 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://www.mattboldt.com/demos/typed-js/js/typed.custom.js" type="text/javascript"></script>
+	<script>
+	$(function(){
+
+		$("#typed").typed({
+			strings: ["amazing.", "ridiculous.", "beautiful.", "stunning.", "hilarious.", "incredible.", "phenomenal.", "revolutionary.", "epic."],
+			typeSpeed: 20, // typing speed
+			backDelay: 500, // pause before backspacing
+		});
+
+	});
+	</script>
 
 	<?php wp_head(); ?>
 </head>
