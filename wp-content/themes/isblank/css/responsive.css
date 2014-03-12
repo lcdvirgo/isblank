@@ -188,8 +188,7 @@
 	}
 
 	.project-details .image img {
-		max-width: 100%;
-		min-width: 100%;
+		width: 45%;
 		height: auto;
 	}
 

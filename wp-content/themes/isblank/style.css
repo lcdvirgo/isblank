@@ -303,6 +303,8 @@ pre {
 .container {
 	width: 1140px;
 	margin: 0 auto;
+	position: relative;
+	top: -30px;
 }
 
 .alignleft {
@@ -819,8 +821,6 @@ body.fixed-header #header {
 }
 
 .project-details {
-	padding-bottom: 40px;
-	border-bottom: 4px double #dbd9d4;
 	overflow: hidden;
 	width: 1140px;
 	height: 422px;
@@ -3165,7 +3165,7 @@ display: block;
 .h1title {
 left: 30px;
 position: relative;
-top: -75px;
+top: -50px;
 color: #ffffff;
 font-size: 27px;
 text-transform:uppercase;
