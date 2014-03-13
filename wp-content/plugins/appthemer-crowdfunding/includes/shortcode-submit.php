@@ -1,6 +1,6 @@
 	<script>
 	$(function(){
-    	$('#content').css('background-color', '#252525');
+    	$('#content').css('background-color', '#252525 !important');
 	});
 	</script>
 
