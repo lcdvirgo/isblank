@@ -38,6 +38,7 @@
 	});
 
 $(document).ready( function() {
+    alert("hello!");
     $('#content').css('background-color', '#eff1f5 !important');
     $('#typedcomplete').delay(16000).fadeOut();
 	$("#tagline span").delay(17500).text("What's yours?").fadeIn();

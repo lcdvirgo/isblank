@@ -10,7 +10,7 @@
 
 global $wp_query;
 
-get_header(); 
+get_header("custom"); 
 ?>
 	
 
