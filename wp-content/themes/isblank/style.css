@@ -1422,7 +1422,8 @@ background-clip: padding-box;
 }
 
 #main-content .entry-content {
-
+    width: 50%;
+    margin: auto;
 }
 
 #main-content .entry-content.inner {
@@ -3168,10 +3169,6 @@ top: -25px;
     vertical-align: middle;
 }
 
-#post-119 {
-	width: 50%;
-	margin: auto;
-}
 
 #post-119 > div > form > p.atcf-submit-campaign-contact_email {
 	color: #565656;
