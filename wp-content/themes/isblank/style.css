@@ -3208,3 +3208,11 @@ padding: 3px 8px 2px;
     color: #000000;
     text-decoration: underline;
 }    
+
+#loginform > p:nth-child(5) a {
+    color: #ffffff;
+}
+
+#loginform > p:nth-child(5) > a:nth-child(1), #loginform > p:nth-child(5) > a:nth-child(3) {
+    margin-left: 10px;
+}
