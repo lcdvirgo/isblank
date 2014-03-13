@@ -40,9 +40,9 @@ get_header();
 
 	<div id="content">
 		<div class="container">
-			
-			<?php locate_template( array( 'searchform-campaign.php' ), true ); ?>
-			<?php locate_template( array( 'content-campaign-sort.php' ), true ); ?>
+						
+			<?php locate_template( array( 'searchform-campaign.php' ), false ); ?>
+			<?php locate_template( array( 'content-campaign-sort.php' ), false ); ?> 
 
 			<div id="projects">
 				<section>
