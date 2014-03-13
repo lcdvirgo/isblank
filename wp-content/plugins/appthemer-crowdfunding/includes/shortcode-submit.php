@@ -1,10 +1,3 @@
-	<script>
-	$(function(){
-    	$('#content').css('background-color', '#252525 !important');
-	});
-	</script>
-
-
 <?php
 /**
  * Submit Shortcode.
