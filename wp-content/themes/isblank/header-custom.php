@@ -39,7 +39,7 @@
 
 $(document).ready( function() {
     alert("hello!");
-    $('#content').css('background-color', '#eff1f5 !important');
+    $('#content').css('background', '#eff1f5 !important');
     $('#typedcomplete').delay(16000).fadeOut();
 	$("#tagline span").delay(17500).text("What's yours?").fadeIn();
 	$("#button span").delay(19500).text("Find out now").fadeIn();
