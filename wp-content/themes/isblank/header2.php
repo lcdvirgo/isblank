@@ -30,6 +30,7 @@
 		$( '#content' ).each(function () {
     		this.style.setProperty( 'background', '#eff1f5', 'important' );
 		});
+		$( '#main-content .entry-content').css('width', '100%');
 	});
 	</script>
 
