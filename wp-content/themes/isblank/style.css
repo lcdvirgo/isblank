@@ -425,6 +425,7 @@ body.fixed-header #header {
 	position: relative;
 	padding: 0 50px 0 0;
 	letter-spacing: 2px;
+    line-height: 28px;
 }
 
 #menu .right .sub-menu li {
@@ -696,7 +697,7 @@ body.fixed-header #header {
 .sort-tabs {
     margin: 0;
     height: 4px;
-    top: 70px;
+    top: 80px;
     z-index: 500;
     position: relative;
     left: 30px;
@@ -939,10 +940,10 @@ body.fixed-header #header {
 	width: 170px;
 	border: 2px solid #ffffff;
 	z-index: 500;
-	top: 70px;
+	top: 80px;
 	right: 30px;
-    color:#ffffff;
-    padding: 8px 20px 5px 20px;
+    	color:#ffffff;
+    	padding: 8px 20px 5px 20px;
 }
 
 .entry-content .search-box {
@@ -3124,7 +3125,7 @@ display: block;
 .h1title {
 left: 30px;
 position: relative;
-top:
+top:-60px;
 color: #ffffff;
 font-size: 47px;
 text-transform: uppercase;
