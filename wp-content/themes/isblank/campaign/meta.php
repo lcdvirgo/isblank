@@ -16,16 +16,9 @@ $end_date = date_i18n( get_option( 'date_format' ), strtotime( $campaign->end_da
 
 	<div class="date">
 		<i class="icon-calendar"></i>
-		<?php printf( __( 'Team Information Submitted On: %s', 'fundify' ), get_the_date() ); ?>
+		<?php printf( __( 'Topic created on: %s', 'fundify' ), get_the_date() ); ?>
 	</div>
-<!--
-	<?php if ( ! $campaign->is_endless() ) : ?>
-	<div class="funding-ends">
-		<i class="icon-clock"></i>
-		<?php printf( __( 'Funding Ends: %s', 'fundify' ), $end_date ); ?>
-	</div>
-	<?php endif; ?>
--->
+
 	<?php if ( $campaign->location() ) : ?>
 	<div class="location">
 		<i class="icon-compass"></i>
