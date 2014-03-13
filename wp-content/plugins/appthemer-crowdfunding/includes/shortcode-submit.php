@@ -150,7 +150,7 @@ class ATCF_Submit_Campaign {
 				'priority'    => 2
 			),
 			'title' => array(
-				'label'       => __( 'What is?', 'atcf' ),
+				'label'       => __( 'Create a New Topic', 'atcf' ),
 				'default'     => null,
 				'type'        => 'text',
 				'editable'    => false,

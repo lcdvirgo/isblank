@@ -6,7 +6,8 @@
  * @since Fundify 1.0
  */
 
-get_header(); ?>
+?>
+<?php include 'header2.php'; ?>
 
 	<?php while ( have_posts() ) : the_post(); $campaign = new ATCF_Campaign( $post->ID ); ?>
 	<div class="title title-two pattern-<?php echo rand(1,4); ?>">
