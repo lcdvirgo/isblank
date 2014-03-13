@@ -438,7 +438,7 @@ body.fixed-header #header {
 	width: 175px;
 }
 
-#menu a {
+#menu a, #button span {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -794,14 +794,14 @@ body.fixed-header #header {
 }
 
 .sort-tabs li a:hover,
-.sort-tabs li a.selected, #menu a:hover {
+.sort-tabs li a.selected, #menu a:hover, #button span:hover {
     	background: #fff;
     	color: #000000;
 	border: 2px solid #000000;
     	text-decoration: none;
 }
 
-.sort-tabs li a, #menu a {
+.sort-tabs li a, #menu a, #button span {
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	float: left;
