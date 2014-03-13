@@ -23,7 +23,7 @@ global $campaign;
 		<!-- <li><a href="#backers" class="tabber"><?php _e( 'Backers', 'fundify' ); ?></a></li> -->
 		
 		<?php if ( get_current_user_id() == $post->post_author || current_user_can( 'manage_options' ) ) : ?>
-		<li><a href="<?php echo atcf_create_permalink( 'edit', get_permalink() ); ?>"><?php _e( 'Edit Team', 'fundify' ); ?></a></li>
+		<li><a href="<?php echo atcf_create_permalink( 'edit', get_permalink() ); ?>"><?php _e( 'Edit Topic', 'fundify' ); ?></a></li>
 		<?php endif; ?>
 
 		<?php do_action( 'fundify_campaign_tabs_after', $campaign ); ?>

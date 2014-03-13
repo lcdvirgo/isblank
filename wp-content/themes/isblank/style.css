@@ -184,7 +184,6 @@ input[type=email],
 input[type=search],
 input[type=password],
 input[type=number],
-input[type=file],
 textarea,
 select {
 	font-family: 'Roboto';
@@ -424,7 +423,7 @@ body.fixed-header #header {
 	width: 175px;
 }
 
-#menu a, #button span {
+#menu a, #button span, x::-webkit-file-upload-button, input[type=file]:after {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -663,6 +662,7 @@ body.fixed-header #header {
 	color: #ffffff;
 	letter-spacing: 3px;
 	text-shadow: 0 1px 0 #fff;
+	display:none;
 }
 
 .title-two h1 {
@@ -780,14 +780,14 @@ body.fixed-header #header {
 }
 
 .sort-tabs li a:hover,
-.sort-tabs li a.selected, #menu a:hover, #button span:hover, .entry-content .button:not(.add_media):hover {
+.sort-tabs li a.selected, #menu a:hover, #button span:hover, .entry-content .button:not(.add_media):hover, x::-webkit-file-upload-button:hover, input[type=file]:after:hover {
     	background: #fff;
     	color: #000000;
 	border: 2px solid #000000;
     	text-decoration: none;
 }
 
-.sort-tabs li a, #menu a, #button span, .entry-content .button:not(.add_media) {
+.sort-tabs li a, #menu a, #button span, .entry-content .button:not(.add_media), x::-webkit-file-upload-button, input[type=file]:after {
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	float: left;
@@ -1692,7 +1692,7 @@ position: relative;
 	letter-spacing: 2px;
 	line-height: 26px;
 	padding: 0 0 11px;
-	color: #515151;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
@@ -1891,6 +1891,8 @@ position: relative;
 .entry-content .atcf-submit-campaign textarea,
 .entry-content .atcf-submit-campaign select {
 	width: 100%;
+	height: 50px;
+	margin-top: 5px;
 }
 
 .entry-content .atcf-submit-campaign-length,
@@ -3169,4 +3171,32 @@ top: -25px;
 #post-119 {
 	width: 50%;
 	margin: auto;
+}
+
+#post-119 > div > form > p.atcf-submit-campaign-contact_email {
+	color: #565656;
+}
+
+
+input[type=file] {
+-webkit-appearance: textfield;
+position: relative;
+-webkit-box-sizing: border-box;
+font-size: 30px;
+}
+input[type=file]::-webkit-file-upload-button {
+width: 0;
+padding: 0;
+-webkit-appearance: none;
+border: none;
+margin-left:10px;
+}
+/* "x::-webkit-file-upload-button" forces the rules to only apply to browsers that support this pseudo-element */
+x::-webkit-file-upload-button, input[type=file]:after {
+content: 'CHOOSE FILE...';
+display: inline-block;
+left: 100%;
+margin-left:10px;
+position: relative;
+padding: 3px 8px 2px;
 }

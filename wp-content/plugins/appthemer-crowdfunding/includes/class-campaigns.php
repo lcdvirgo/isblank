@@ -73,19 +73,19 @@ class ATCF_Campaigns {
 	 */
 	function download_labels( $labels ) {
 		$labels =  apply_filters( 'atcf_campaign_labels', array(
-			'name' 				=> __( 'Teams', 'atcf' ),
-			'singular_name' 	=> __( 'Team', 'atcf' ),
+			'name' 				=> __( 'Topics', 'atcf' ),
+			'singular_name' 	=> __( 'Topic', 'atcf' ),
 			'add_new' 			=> __( 'Add New', 'atcf' ),
-			'add_new_item' 		=> __( 'Add New Team', 'atcf' ),
-			'edit_item' 		=> __( 'Edit Team', 'atcf' ),
-			'new_item' 			=> __( 'New Team', 'atcf' ),
-			'all_items' 		=> __( 'All Teams', 'atcf' ),
-			'view_item' 		=> __( 'View Team', 'atcf' ),
-			'search_items' 		=> __( 'Search Teams', 'atcf' ),
-			'not_found' 		=> __( 'No Teams found', 'atcf' ),
-			'not_found_in_trash'=> __( 'No Teams found in Trash', 'atcf' ),
+			'add_new_item' 		=> __( 'Add New Topic', 'atcf' ),
+			'edit_item' 		=> __( 'Edit Topic', 'atcf' ),
+			'new_item' 			=> __( 'New Topic', 'atcf' ),
+			'all_items' 		=> __( 'All Topics', 'atcf' ),
+			'view_item' 		=> __( 'View Topic', 'atcf' ),
+			'search_items' 		=> __( 'Search Topics', 'atcf' ),
+			'not_found' 		=> __( 'No Topics found', 'atcf' ),
+			'not_found_in_trash'=> __( 'No Topics found in Trash', 'atcf' ),
 			'parent_item_colon' => '',
-			'menu_name' 		=> __( 'Teams', 'atcf' )
+			'menu_name' 		=> __( 'Topics', 'atcf' )
 		) );
 
 		return $labels;
