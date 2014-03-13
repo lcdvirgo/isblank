@@ -143,7 +143,7 @@ class ATCF_Submit_Campaign {
 
 		$fields = array(
 			'campaign_heading' => array(
-				'label'       => __( 'Team Information', 'atcf' ),
+				'label'       => __( 'New Topic', 'atcf' ),
 				'type'        => 'heading',
 				'default'     => null,
 				'editable'    => true,
@@ -158,36 +158,6 @@ class ATCF_Submit_Campaign {
 				'required'    => true,
 				'priority'    => 4
 			),/*
-			'goal' => array(
-				'label'       => sprintf( __( 'Goal (%s)', 'atcf' ), edd_currency_filter( '' ) ),
-				'default'     => null,
-				'type'        => 'text',
-				'editable'    => false,
-				'placeholder' => edd_format_amount( 800 ),
-				'required'    => true,
-				'priority'    => 6
-			),
-			'length' => array(
-				'label'       => __( 'Length', 'atcf' ),
-				'default'     => floor( ( $min + $max ) / 2 ),
-				'type'        => 'number',
-				'editable'    => false,
-				'placeholder' => null,
-				'min'         => $min,
-				'max'         => $max,
-				'step'        => 1,
-				'priority'    => 8
-			),
-			'type' => array(
-				'label'       => __( 'Funding Type', 'atcf' ),
-				'default'     => atcf_campaign_type_default(),
-				'type'        => 'radio',
-				'options'     => atcf_campaign_types_active(),
-				'editable'    => false,
-				'placeholder' => null,
-				'required'    => true,
-				'priority'    => 10
-			), */
 			'category' => array(
 				'label'       => __( 'Industries (check all that apply)', 'atcf' ),
 				'default'     => null,
@@ -228,7 +198,7 @@ class ATCF_Submit_Campaign {
 				'editable'    => true,
 				'placeholder' => null,
 				'priority'    => 20
-			),
+			), */
 			'image' => array(
 				'label'       => __( 'Featured Image', 'atcf' ),
 				'default'     => null,
@@ -236,7 +206,7 @@ class ATCF_Submit_Campaign {
 				'editable'    => true,
 				'placeholder' => null,
 				'priority'    => 22
-			),
+			), /*
 			'video' => array(
 				'label'       => __( 'Featured Video URL(Optional)', 'atcf' ),
 				'default'     => null,
@@ -244,7 +214,7 @@ class ATCF_Submit_Campaign {
 				'editable'    => true,
 				'placeholder' => null,
 				'priority'    => 24
-			), /*
+			), 
 			'backer_rewards_heading' => array(
 				'label'       => __( 'Backer Rewards', 'atcf' ),
 				'type'        => 'heading',
@@ -291,7 +261,7 @@ class ATCF_Submit_Campaign {
 				'placeholder' => null,
 				'required'    => true,
 				'priority'    => 36
-			), 
+			), /*
 			'organization' => array(
 				'label'       => __( 'College/University affiliation', 'atcf' ),
 				'default'     => null,
@@ -299,7 +269,7 @@ class ATCF_Submit_Campaign {
 				'editable'    => true,
 				'placeholder' => null,
 				'priority'    => 38
-			), 
+			), */
 			'location' => array(
 				'label'       => __( 'Location', 'atcf' ),
 				'default'     => null,
