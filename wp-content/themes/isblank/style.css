@@ -3213,6 +3213,6 @@ padding: 3px 8px 2px;
     color: #ffffff;
 }
 
-#loginform > p:nth-child(5) > a:nth-child(1), #loginform > p:nth-child(5) > a:nth-child(3) {
+#loginform > p:nth-child(5) > a:nth-child(1), #loginform > p:nth-child(5) a {
     margin-left: 10px;
 }
