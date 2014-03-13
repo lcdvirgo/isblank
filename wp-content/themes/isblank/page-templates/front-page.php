@@ -31,7 +31,8 @@ get_header();
 				$lines = explode( "\n", $string );
 			?>
 			<span id="typedcomplete">Sochi is <a href="#content"><span id="typed" style="font-weight:300;"></span></span>
-			<div id="tagline"><span class="animated bounceIn" style="display:none;"></span></div></a>
+			<div id="tagline"><span class="animated bounceIn" style="display:none;"></span></div>
+			<div id="button"><span class="animated fadeInRight" style="display:none;"></span></div></a>
 		</h1>
 		<!-- / container -->
 	</div>
