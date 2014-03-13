@@ -157,7 +157,7 @@ function atcf_shortcode_profile_campaigns( $user ) {
 	if ( ! $campaigns->have_posts() )
 		return;
 ?>
-	<h3 class="atcf-profile-section your-campaigns"><?php _e( 'Your Campaigns', 'atcf' ); ?></h3>
+	<h3 class="atcf-profile-section your-campaigns"><?php _e( 'Your Topics', 'atcf' ); ?></h3>
 
 	<ul class="atcf-profile-campaigns">
 	<?php while ( $campaigns->have_posts() ) : $campaigns->the_post(); $campaign = atcf_get_campaign( get_post()->ID ); ?>

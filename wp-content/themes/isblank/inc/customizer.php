@@ -450,7 +450,6 @@ function fundify_header_css() {
 		.sort-tabs .dropdown .current, 
 		.sort-tabs li a:hover, 
 		.sort-tabs li a.selected,
-		.entry-content a,
 		.edd_price_options .backer-count,
 		#sidebar .widget-bio .author-bio-links li a,
 		.share-link:hover:before,
