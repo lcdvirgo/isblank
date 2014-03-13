@@ -529,7 +529,7 @@ body.fixed-header #header {
 
 #home-page-featured h1 a {
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #home-page-featured h1 a:hover {
@@ -3176,3 +3176,11 @@ top: -25px;
 #menu-item-613 > a {
     border: dashed;
 }    
+
+#tagline, #button {
+    display: inline-block;
+}    
+
+#button {
+    vertical-align: middle;
+}
