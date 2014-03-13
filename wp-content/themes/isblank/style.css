@@ -155,7 +155,6 @@ html {
 body {
 	font: 14px/20px 'Roboto', serif;
 	color: #565656;
-	background: #fff url(images/bg_body.jpg) repeat;
 }
 
 body.fixed-header.admin-bar #header {
