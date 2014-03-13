@@ -1,7 +1,7 @@
 	<script>
-	$(document).ready( function() {
-        $('#content').css('background', '#252525');
-      });
+	$(function(){
+    	$('#content').css('background-color', '#252525');
+	});
 	</script>
 
 
