@@ -3174,7 +3174,7 @@ top: -25px;
 	color: #565656;
 }
 
-#title, #image, #location, #nicename, #url, #twitter, #facebook, #bio, {
+#title, #image, #location, #nicename, #url, #twitter, #facebook, #bio {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
