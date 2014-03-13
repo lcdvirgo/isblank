@@ -64,7 +64,7 @@
 						<?php endif; ?>
 
 						<!-- <span><?php bloginfo( 'name' ); ?></span> -->
-						<span><a href="/"><img style="height:40px;" src="http://isblank.s3.amazonaws.com/2014/03/logo_0-300x78.png"><a/></span>
+						<span><a href="/"><img style="height:40px;" src="http://isblank.s3.amazonaws.com/2014/03/logo-white.png"><a/></span>
 					</a>
 				</h1>
 			</hgroup>

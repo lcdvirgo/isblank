@@ -25,12 +25,12 @@ get_header();
 		</div>
 
 
-		<h1>
+		<h1 style="font-weight:700; font-size:65px;">
 			<?php 
 				$string = fundify_theme_mod( 'hero_text' ); 
 				$lines = explode( "\n", $string );
 			?>
-			<a href="#content"><span id="typed"></span></a>
+			Daniel is <a href="#content"><span id="typed" style="font-weight:300;"></span></a>
 		</h1>
 		<!-- / container -->
 	</div>
