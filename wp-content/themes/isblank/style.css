@@ -3100,6 +3100,8 @@ background-image: url("http://isblank.s3.amazonaws.com/2014/03/map2.png");
 
 #content {
 background-color: #eff1f5;
+position: relative;
+top: -60px;    
 }
 
 .edd_purchase_submit_wrapper a.edd-add-to-cart.edd-has-js, .edd-cart-ajax-alert {
