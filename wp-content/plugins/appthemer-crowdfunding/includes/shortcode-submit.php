@@ -154,7 +154,7 @@ class ATCF_Submit_Campaign {
 				'default'     => null,
 				'type'        => 'text',
 				'editable'    => false,
-				'placeholder' => "What's it?",
+				'placeholder' => "What is? (_____ is?)",
 				'required'    => true,
 				'priority'    => 4
 			),/*
