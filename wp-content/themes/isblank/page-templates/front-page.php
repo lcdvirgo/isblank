@@ -30,7 +30,8 @@ get_header();
 				$string = fundify_theme_mod( 'hero_text' ); 
 				$lines = explode( "\n", $string );
 			?>
-			Sochi is <a href="#content"><span id="typed" style="font-weight:300;"></span></a>
+			<span id="typedcomplete">Sochi is <a href="#content"><span id="typed" style="font-weight:300;"></span></span>
+			<div id="tagline"><span class="animated bounceIn" style="display:none;"></span></div></a>
 		</h1>
 		<!-- / container -->
 	</div>

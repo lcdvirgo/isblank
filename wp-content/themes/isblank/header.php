@@ -20,15 +20,16 @@
 	
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+	<link rel="stylesheet" href="http://daneden.github.io/animate.css/animate.min.css">
 	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://www.mattboldt.com/demos/typed-js/js/typed.custom.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://isblank.herokuapp.com/wp-content/themes/isblank/js/typed.custom.js" type="text/javascript"></script>
+
 	<script>
 	$(function(){
-
 		$("#typed").typed({
 			strings: ["amazing.", "ridiculous.", "beautiful.", "stunning.", "hilarious.", "incredible.", "phenomenal.", "revolutionary.", "epic."],
 			typeSpeed: 20, // typing speed
@@ -36,6 +37,11 @@
 		});
 
 	});
+
+$(document).ready( function() {
+        $('#typedcomplete').delay(16000).fadeOut();
+	$("#tagline span").delay(17500).text("What's yours?").fadeIn();
+      });
 	</script>
 
 	<?php wp_head(); ?>
