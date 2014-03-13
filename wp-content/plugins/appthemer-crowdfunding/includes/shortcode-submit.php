@@ -1362,7 +1362,7 @@ function atcf_shortcode_submit_field_before_render_contact_email( $field ) {
 
 	$field[ 'type' ]  = 'hidden';
 	$field[ 'value' ] = $current_user->user_email;
-	$field[ 'label' ] =  sprintf( __( '<strong>Note</strong>: You are currently logged in as %1$s. This %2$s will be associated with that account. Please <a href="%3$s">log out</a> if you would like to make a %2$s under a new account.', 'atcf' ), $current_user->user_email, strtolower( edd_get_label_singular() ), wp_logout_url( get_permalink() ) );
+	$field[ 'label' ] =  sprintf( __( '<strong>Note</strong>: You are currently logged in as %1$s. This topic will be associated with that account. Please <a href="%3$s">log out</a> if you would like to make a new topic under a new account.', 'atcf' ), $current_user->user_email, strtolower( edd_get_label_singular() ), wp_logout_url( get_permalink() ) );
 
 	return $field;
 }

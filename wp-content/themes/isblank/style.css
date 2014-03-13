@@ -220,40 +220,27 @@ input[type=submit]:not(#searchsubmit),
 .entry-content .button:not(.add_media),
 a.btn-green,
 .edd-add-to-cart {
-	font-weight: 400;
-	text-transform: uppercase;
-	font-family: Lato;
-	border: 0;
-	font-size: 19px;
-	border-radius: 4px;
-	padding: 15px 20px;
-	text-shadow: none;
-	color: #fff;
-	display: block;
-	text-align: center;
-	clear: both;
+
 }
 
 input[type=submit]:not(#searchsubmit),
 .btn-green,
 .entry-content .button:not(.add_media),
 .edd-add-to-cart {
-	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .25);
+
 }
 
 a.edd-add-to-cart {
-	color: #fff;
+
 }
 
 .entry-content .button {
-	display: inline-block;
+
 }
 
 .edd-cart-saving-button.edd-submit.button,
 .entry-content .edd_cart_footer_row input[type="submit"].edd-submit.button {
-	font-size: 14px !important;
-	display: inline-block !important;
-	padding: 5px 10px !important;
+
 }
 
 code,
@@ -702,7 +689,7 @@ body.fixed-header #header {
     left: 30px;
 }
 
-.sort-tabs h3 {
+.sort-tabs h3, .entry-content .button:not(.add_media) {
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
 	line-height: 28px;
@@ -780,7 +767,7 @@ body.fixed-header #header {
 	float: right;
 }
 
-.sort-tabs li {
+.sort-tabs li, .entry-content .button:not(.add_media) {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 15px;
@@ -793,14 +780,14 @@ body.fixed-header #header {
 }
 
 .sort-tabs li a:hover,
-.sort-tabs li a.selected, #menu a:hover, #button span:hover {
+.sort-tabs li a.selected, #menu a:hover, #button span:hover, .entry-content .button:not(.add_media):hover {
     	background: #fff;
     	color: #000000;
 	border: 2px solid #000000;
     	text-decoration: none;
 }
 
-.sort-tabs li a, #menu a, #button span {
+.sort-tabs li a, #menu a, #button span, .entry-content .button:not(.add_media) {
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	float: left;
@@ -1435,8 +1422,7 @@ background-clip: padding-box;
 }
 
 #main-content .entry-content {
-	overflow: hidden;
-	padding: 20px 0;
+
 }
 
 #main-content .entry-content.inner {
@@ -2046,8 +2032,6 @@ position: relative;
 .atcf-edd-terms-wrap {
 	margin: 0 0 20px;
 	padding: 20px 0;
-	border-top: 4px double #dbd9d4;
-	border-bottom: 4px double #dbd9d4;
 }
 
 .entry-content .atcf-submit-campaign-tos {
@@ -3086,7 +3070,7 @@ background-image: url("http://isblank.s3.amazonaws.com/2014/03/map2.png");
 
 
 #title-image h1 span, .bar span, input[type=submit]:not(#searchsubmit), .btn-green, .entry-content .button:not(.add_media), .edd-add-to-cart {
- background: rgba(255,255,255,0.05);
+
 }
 
 #content {
@@ -3180,4 +3164,9 @@ top: -25px;
 
 #button {
     vertical-align: middle;
+}
+
+#post-119 {
+	width: 50%;
+	margin: auto;
 }

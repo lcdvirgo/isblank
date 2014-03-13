@@ -465,7 +465,7 @@ function fundify_header_css() {
 		.btn-green,
 		.entry-content .button:not(.add_media),
 		.edd-add-to-cart {
-			background-color:#423869;
+			background-color:#252525;
 		}
 
 		#home-page-featured h1 span,
