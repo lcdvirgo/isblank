@@ -3170,3 +3170,8 @@ position: relative;
 #home-page-featured h1 span {
 	background-color:none;
 }
+
+#home-page-featured h1, #home-page-featured h1 span {
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3);
+}

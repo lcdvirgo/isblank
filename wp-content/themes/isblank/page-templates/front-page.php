@@ -30,7 +30,7 @@ get_header();
 				$string = fundify_theme_mod( 'hero_text' ); 
 				$lines = explode( "\n", $string );
 			?>
-			Daniel is <a href="#content"><span id="typed" style="font-weight:300;"></span></a>
+			Sochi is <a href="#content"><span id="typed" style="font-weight:300;"></span></a>
 		</h1>
 		<!-- / container -->
 	</div>
