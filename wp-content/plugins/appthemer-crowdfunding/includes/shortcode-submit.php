@@ -1,3 +1,10 @@
+	<script>
+	$(document).ready( function() {
+        $('#content').css('background', '#252525');
+      });
+	</script>
+
+
 <?php
 /**
  * Submit Shortcode.
@@ -150,7 +157,7 @@ class ATCF_Submit_Campaign {
 				'priority'    => 2
 			),
 			'title' => array(
-				'label'       => __( 'Company Name', 'atcf' ),
+				'label'       => __( 'What is?', 'atcf' ),
 				'default'     => null,
 				'type'        => 'text',
 				'editable'    => false,
@@ -200,7 +207,7 @@ class ATCF_Submit_Campaign {
 				'priority'    => 20
 			), */
 			'image' => array(
-				'label'       => __( 'Featured Image', 'atcf' ),
+				'label'       => __( 'Cover Photo', 'atcf' ),
 				'default'     => null,
 				'type'        => 'featured_image',
 				'editable'    => true,
