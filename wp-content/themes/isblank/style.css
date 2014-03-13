@@ -3172,3 +3172,7 @@ top: -25px;
     text-transform: uppercase;
     text-shadow: 0 0 1px rgba(0,0,0,0.3),0 1px 1px rgba(0,0,0,0.3);
 }
+
+#menu-item-613 > a {
+    border: dashed;
+}    
