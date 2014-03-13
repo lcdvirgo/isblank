@@ -423,7 +423,7 @@ body.fixed-header #header {
 	width: 175px;
 }
 
-#menu a, #button span, x::-webkit-file-upload-button, input[type=file]:after {
+#menu a, #button span, x::-webkit-file-upload-button, input[type=file]:after, input[type=submit]:not(#searchsubmit) {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -780,14 +780,14 @@ body.fixed-header #header {
 }
 
 .sort-tabs li a:hover,
-.sort-tabs li a.selected, #menu a:hover, #button span:hover, .entry-content .button:not(.add_media):hover, x::-webkit-file-upload-button:hover, input[type=file]:after:hover {
+.sort-tabs li a.selected, #menu a:hover, #button span:hover, .entry-content .button:not(.add_media):hover, x::-webkit-file-upload-button:hover, input[type=file]:after:hover, input[type=submit]:not(#searchsubmit):hover {
     	background: #fff;
     	color: #000000;
 	border: 2px solid #000000;
     	text-decoration: none;
 }
 
-.sort-tabs li a, #menu a, #button span, .entry-content .button:not(.add_media), x::-webkit-file-upload-button, input[type=file]:after {
+.sort-tabs li a, #menu a, #button span, .entry-content .button:not(.add_media), x::-webkit-file-upload-button, input[type=file]:after, input[type=submit]:not(#searchsubmit) {
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	float: left;
@@ -3174,7 +3174,7 @@ top: -25px;
 	color: #565656;
 }
 
-#title, #image, #location {
+#title, #image, #location, #nicename, #url, #twitter, #facebook, #bio, {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
