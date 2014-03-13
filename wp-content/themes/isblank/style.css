@@ -1421,7 +1421,7 @@ background-clip: padding-box;
 	float: left;
 }
 
-#main-content .entry-content {
+#main-content .entry-content, #post-521, #post-529 {
     width: 50%;
     margin: auto;
 }
