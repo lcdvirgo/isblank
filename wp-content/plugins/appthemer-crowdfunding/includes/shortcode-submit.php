@@ -154,7 +154,7 @@ class ATCF_Submit_Campaign {
 				'default'     => null,
 				'type'        => 'text',
 				'editable'    => false,
-				'placeholder' => null,
+				'placeholder' => "What's it?",
 				'required'    => true,
 				'priority'    => 4
 			),/*
