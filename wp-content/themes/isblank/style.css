@@ -911,7 +911,7 @@ body.fixed-header #header {
 }
 
 .div-c {
-	
+	border-top: 1px solid #dbd9d4;
 	padding: 1px;
 	margin: 40px 0 58px;
 	border-bottom: 1px solid #dbd9d4;
@@ -1033,7 +1033,7 @@ body.fixed-header #header {
 }
 
 .submit-content .div {
-	
+	border-top: 1px solid #dbd9d4;
 	padding: 1px;
 	margin: 0 0 20px;
 	border-bottom: 1px solid #dbd9d4;
@@ -1649,7 +1649,7 @@ img.aligncenter {
 	font-size: 16px;
 	line-height: 32px;
 	padding: 15px 48px 0;
-	
+	border-top: 1px solid #dbd9d4;
 	margin: 15px 0 20px;
 	border-bottom: 1px solid #dbd9d4;
 	font-weight: bold;
@@ -1797,11 +1797,12 @@ position: relative;
 
 #comments .commentlist {
 	margin: 2px 0 0;
+	border-top: 1px solid #dbd9d4;
 	padding: 10px 0;
 }
 
 #comments .commentlist .children {
-
+	border-top: 1px solid #dbd9d4;
 }
 
 #comments .commentlist .children article {
@@ -1821,6 +1822,7 @@ position: relative;
 }
 
 #comments .commentlist article {
+	border-bottom: 1px solid #dbd9d4;
 	overflow: hidden;
 	padding: 20px 0 40px;
 	margin: 0 0 2px;
