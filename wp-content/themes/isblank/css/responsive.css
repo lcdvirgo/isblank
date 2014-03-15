@@ -1,6 +1,6 @@
 @media screen and (min-width: 1160px) {
 	#menu {
-		display: block !important;
+		display: block;
 	}
 
 	#header .container {

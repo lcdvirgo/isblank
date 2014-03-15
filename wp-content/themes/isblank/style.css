@@ -633,24 +633,28 @@ body.fixed-header #header {
 	background-color: #252525;
 	height: 250px;
 	background-position-y: 450px;
+	display: none;
 }
 
 .title.pattern-2 {
 	background-color: #252525;
 	height: 250px;
 	background-position-y: 450px;
+	display: none;
 }
 
 .title.pattern-3 {
 	background-color: #252525;
 	height: 250px;
 	background-position-y: 450px;
+	display: none;
 }
 
 .title.pattern-4 {
 	background-color: #252525;
 	height: 250px;
 	background-position-y: 450px;
+	display: none;
 }
 
 .title h1 {
