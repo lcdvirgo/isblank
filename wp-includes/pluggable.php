@@ -1304,14 +1304,14 @@ function wp_new_user_notification($user_id, $plaintext_pass = '') {
 
 	if ( empty($plaintext_pass) )
 		return;
-	/* $message  = sprintf(__('Thank you so much for registering with the Team Formation website!') . "\r\n"; */
+	/* $message  = sprintf(__('Thank you so much for registering with Is-Blank!') . "\r\n"; */
 	$message  = sprintf(__('Username: %s'), $user->user_login) . "\r\n";
 	/* $message .= sprintf(__('Password: %s'), $plaintext_pass) . "\r\n"; */
-	$message .= sprintf(__('Thank you so much for registering with the Team Formation website! You can now setup your profile at: %s'), wp_login_url() ) . "\r\n";
+	$message .= sprintf(__('Thank you so much for registering with Is-Blank! You can now submit a new topic at: http://is-blank.com/newtopic '), wp_login_url() ) . "\r\n";
 	/* $message .= wp_login_url() . "\r\n"; */
 	/* $message  = sprintf(__('The UW Team Formation Team') . "\r\n"; */
 
-	wp_mail($user->user_email, sprintf(__('Welcome to Team Formation'), $blogname), $message);
+	wp_mail($user->user_email, sprintf(__('Welcome to Is-Blank'), $blogname), $message);
 	/* wp_mail($user->user_email, sprintf(__('[%s] Your username and password'), $blogname), $message); */
 
 }
