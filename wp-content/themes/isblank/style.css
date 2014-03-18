@@ -423,7 +423,7 @@ body.fixed-header #header {
 	width: 175px;
 }
 
-#menu a, #button span, x::-webkit-file-upload-button, input[type=file]:after, input[type=submit]:not(#searchsubmit) {
+#menu a, #button span, x::-webkit-file-upload-button, input[type=file]:after, input[type=submit]:not(#searchsubmit), #contact_email {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -3182,11 +3182,11 @@ top: -25px;
 }
 
 
-#post-119 > div > form > p.atcf-submit-campaign-contact_email {
+#post-119 > div > form > p.atcf-submit-campaign-contact_email, #contact_email {
 	color: #565656;
 }
 
-#title, #image, #location, #nicename, #url, #twitter, #facebook, #bio, #user_login, #user_pass, #displayname, #user_email {
+#title, #image, #location, #nicename, #url, #twitter, #facebook, #bio, #user_login, #user_pass, #displayname, #user_email, #contact_email {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
