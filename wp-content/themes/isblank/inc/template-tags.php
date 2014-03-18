@@ -61,6 +61,7 @@ function fundify_comment( $comment, $args, $depth ) {
 			<section class="comment-content comment">
 				<h1><?php comment_text(); ?></h1>
 				<?php edit_comment_link( __( 'Edit', 'fundify' ) ); ?>
+				<a href="http://isblank-globe.herokuapp.com" target="_blank" style="float:right; margin-right: 15px;">Visualize</a>
 			</section>
 			<!-- .comment-content -->
 			

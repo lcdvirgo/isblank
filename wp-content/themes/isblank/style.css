@@ -1682,7 +1682,8 @@ position: relative;
 .entry-content h1 {
 	font-size: 34px;
 	line-height: 40px;
-	padding: 20px 0 20px;
+	padding: 20px 0 0;
+	height: 360px;
 }
 
 .entry-content h2 {
@@ -1810,12 +1811,10 @@ position: relative;
 
 #comments .commentlist {
 	margin: 2px 0 0;
-	border-top: 1px solid #dbd9d4;
 	padding: 10px 0;
 }
 
 #comments .commentlist .children {
-	border-top: 1px solid #dbd9d4;
 }
 
 #comments .commentlist .children article {
@@ -1827,18 +1826,15 @@ position: relative;
 }
 
 #comments .commentlist li {
-	border-bottom: 1px solid #dbd9d4;
-	margin: 0 10px 2px;
+	margin: 0 10px 30px;
 	float: left;
 	width: 360px;
-    background-color: #ffffff;
+    	background-color: #ffffff;
 }
 
 #comments .commentlist article {
-	border-bottom: 1px solid #dbd9d4;
 	overflow: hidden;
-	padding: 20px 0 40px;
-	margin: 0 0 2px;
+	padding: 20px 0 10px;
 }
 
 #comments .commentlist li.first {
@@ -3223,7 +3219,12 @@ padding: 3px 8px 2px;
 .entry-content a {
     color: #000000;
     text-decoration: underline;
+
 }    
+
+.entry-content a.comment-edit-link {
+	margin-left: 15px;	
+}
 
 #loginform > p:nth-child(5) a {
     color: #ffffff;
@@ -3231,4 +3232,11 @@ padding: 3px 8px 2px;
 
 #loginform > p:nth-child(5) > a:nth-child(1), #loginform > p:nth-child(5) a {
     margin-left: 10px;
+}
+
+#comments .commentlist article:hover {
+-moz-box-shadow: 3px 3px 4px #aaa;
+-webkit-box-shadow: 3px 3px 4px #aaa;
+box-shadow: 3px 3px 4px #aaa;
+opacity: 1;
 }

@@ -36,7 +36,7 @@
 			
 			<div class="last-widget">
 				<?php if ( fundify_is_crowdfunding() ) : ?>
-				<h3><?php _e( 'Get the Stats', 'fundify' ); ?></h3>
+				<h3><?php _e( '', 'fundify' ); ?></h3>
 				<ul>
 					<li><?php printf( '<strong>%s</strong> %s', wp_count_posts( 'download' )->publish, _n( edd_get_label_singular(), edd_get_label_plural(), wp_count_posts( 'download' )->publish ) ); ?></li>
 					<!-- <li><?php printf( __( '<strong>%s</strong> Funded', 'fundify' ), edd_currency_filter( edd_format_amount( edd_get_total_earnings() ) ) ); ?></li> -->
