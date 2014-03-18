@@ -6,7 +6,7 @@
  * @since Fundify 1.0
  */
  ?>
-<?php include 'header2.php'; ?>
+<?php include 'header3.php'; ?>
 
 
 	<?php while ( have_posts() ) : the_post(); $campaign = new ATCF_Campaign( $post->ID ); ?>

@@ -8,8 +8,8 @@
 
 global $campaign;
 
-get_header("custom"); ?>
-
+?>
+<?php include 'header2.php'; ?>
 
 	<?php while ( have_posts() ) : the_post(); $campaign = atcf_get_campaign( $post->ID ); ?>
 

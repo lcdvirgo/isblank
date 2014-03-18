@@ -20,32 +20,23 @@
 	
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	<link rel="stylesheet" href="http://daneden.github.io/animate.css/animate.min.css">
 	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 	<![endif]-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="http://isblank.herokuapp.com/wp-content/themes/isblank/js/typed.custom.js" type="text/javascript"></script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script>
-	$(function(){
-		$("#typed").typed({
-			strings: ["amazing.", "ridiculous.", "beautiful.", "stunning.", "hilarious.", "incredible.", "phenomenal.", "revolutionary.", "epic."],
-			typeSpeed: 20, // typing speed
-			backDelay: 500, // pause before backspacing
+	$(document).ready( function() {
+		$( '#content' ).each(function () {
+    		this.style.setProperty( 'background', '#eff1f5', 'important' );
 		});
+		$( '#main-content .entry-content').css('width', '100%');
+        $( '.site-title img').css('-webkit-filter', 'invert(100%)');
+        $( '#content > div > div > form > p.atcf-submit-campaign-image ').css('margin-top','100px'); 
+        $( '.atcf-submit-campaign h3, .atcf-profile h3').css('color', '#000000');
+        $( 'x::-webkit-file-upload-button, input[type=file]:after').css('color', '#000000');
+        $( 'x::-webkit-file-upload-button, input[type=file]:after').css('border-color', '#000000');
 	});
-
-$(document).ready( function() {
-	$( '#content' ).each(function () {
-    	this.style.setProperty( 'background', '#eff1f5', 'important' );
-	});
-    	$('#typedcomplete').delay(16000).fadeOut();
-	$("#tagline span").delay(17500).text("What's yours?").fadeIn();
-	$("#button span").delay(19500).text("Find out now").fadeIn();
-
-      });
 	</script>
 
 	<?php wp_head(); ?>
@@ -57,12 +48,7 @@ $(document).ready( function() {
 
 	<header id="header" class="site-header" role="banner">
 		<div class="container">
-			<a href="#" class="menu-toggle"><i class="icon-menu"></i></a>
 
-			<nav id="menu">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary-left', 'container' => false ) ); ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary-right', 'container' => false, 'menu_class' => 'right' ) ); ?>
-			</nav>
 			<!-- / navigation -->
 
 			<hgroup>

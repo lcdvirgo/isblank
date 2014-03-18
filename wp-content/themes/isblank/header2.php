@@ -31,6 +31,10 @@
     		this.style.setProperty( 'background', '#eff1f5', 'important' );
 		});
 		$( '#main-content .entry-content').css('width', '100%');
+		$(".title.pattern-1").css("display", "none");
+$(".title.pattern-2").css("display", "none");
+$(".title.pattern-3").css("display", "none");
+$(".title.pattern-4").css("display", "none");
 	});
 	</script>
 
