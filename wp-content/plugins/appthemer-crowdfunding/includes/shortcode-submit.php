@@ -200,7 +200,7 @@ class ATCF_Submit_Campaign {
 				'priority'    => 20
 			), */
 			'image' => array(
-				'label'       => __( 'Cover Photo', 'atcf' ),
+				'label'       => __( 'Cover Photo (1140 X 422 pixel)', 'atcf' ),
 				'default'     => null,
 				'type'        => 'featured_image',
 				'editable'    => true,
