@@ -60,9 +60,9 @@ msgstr ""
 
 #: ../author.php:19 ../campaign/author-info.php:27
 #, php-format
-msgctxt "1: Number of Campaigns 2: EDD Object"
+msgctxt "1: Number of Topics 2: EDD Object"
 msgid "Created %1$d Campaign"
-msgid_plural "Created %1$d Campaigns"
+msgid_plural "Created %1$d Topics"
 msgstr[0] ""
 msgstr[1] ""
 

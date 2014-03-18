@@ -34,8 +34,12 @@
         $( '.site-title img').css('-webkit-filter', 'invert(100%)');
         $( '#content > div > div > form > p.atcf-submit-campaign-image ').css('margin-top','100px'); 
         $( '.atcf-submit-campaign h3, .atcf-profile h3').css('color', '#000000');
-        $( 'x::-webkit-file-upload-button, input[type=file]:after').css('color', '#000000');
-        $( 'x::-webkit-file-upload-button, input[type=file]:after').css('border-color', '#000000');
+	$(".title.pattern-1").css("display", "none");
+	$(".title.pattern-2").css("display", "none");
+	$(".title.pattern-3").css("display", "none");
+	$(".title.pattern-4").css("display", "none");
+        $( 'input[type=file]:after').css('color', '#000000');
+        $( 'input[type=file]:after').css('border-color', '#000000');
 	});
 	</script>
 

@@ -24,7 +24,7 @@ $author = get_user_by( 'id', $post->post_author );
 		<small>
 			<?php 
 				$count = fundify_count_user_campaigns( $author->ID );
-				printf( _nx( 'Created %1$d Team', 'Created %1$d Teams', $count, '1: Number of Campaigns 2: EDD Object', 'fundify' ), $count ); 
+				printf( _nx( 'Created %1$d Topic', 'Created %1$d Topics', $count, '1: Number of Topics 2: EDD Object', 'fundify' ), $count ); 
 			?> 
 			&bull; 
 			<a href="<?php echo get_author_posts_url( $author->ID ); ?>"><?php _e( 'View Profile', 'fundify' ); ?></a></small>
