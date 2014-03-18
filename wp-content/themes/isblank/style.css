@@ -1087,10 +1087,12 @@ body.campaign-widget #projects .item {
 	width: 252px;
 	background: #fff;
 	float: left;
-	padding: 0 0 7px;
+	padding: 0;
 	margin: 0 43px 32px 0;
 	overflow: hidden;
 	background-color: white;
+	height: 245px;
+	text-transform: uppercase;
 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.09);
@@ -1155,21 +1157,24 @@ background-clip: padding-box;
 	display: block;
 	min-width: 100%;
 	max-width: 100%;
-	height: auto;
+	height: 250px;
 }
 
 #projects h3 {
-	font-size: 15px;
+	font-size: 25px;
 	font-weight: 700;
-	color: #515151;
+	color: #ffffff;
 	margin: 17px 17px 10px;
 	letter-spacing: 1px;
+	position: relative;
+	top: -90px;
 }
 
 #projects p {
 	font-size: 14px;
 	line-height: 20px;
 	margin: 0 17px;
+	display:none;
 }
 
 .campaign-ribbon {
@@ -2128,7 +2133,11 @@ a.comment-edit-link {
 }
 
 .entry-content .atcf-profile-campaigns .atcf-profile-campaign-overview .entry-title a {
-	color: #515151;
+	color: #565656;
+}
+
+.entry-title a {
+	color: #ffffff;
 }
 
 .single-author-bio {

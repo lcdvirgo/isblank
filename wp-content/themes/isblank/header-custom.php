@@ -44,7 +44,7 @@ $(document).ready( function() {
     	$('#typedcomplete').delay(16000).fadeOut();
 	$("#tagline span").delay(17500).text("What's yours?").fadeIn();
 	$("#button span").delay(19500).text("Find out now").fadeIn();
-	$("#menu").css("display", "none !important");
+	$("#menu").css("display", "none");
       });
 	</script>
 
