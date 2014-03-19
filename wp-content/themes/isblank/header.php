@@ -27,12 +27,6 @@
 	<![endif]-->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="http://isblank.herokuapp.com/wp-content/themes/isblank/js/typed.custom.js" type="text/javascript"></script>
-    
-    <script>
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-            window.location = "http://google.com";
-        }
-    </script>
 
 	<script>
 	$(function(){
